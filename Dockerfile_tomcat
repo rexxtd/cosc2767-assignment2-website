@@ -1,0 +1,3 @@
+FROM tomcat:latest
+
+USER root
