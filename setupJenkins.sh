@@ -8,6 +8,3 @@ tar -xvzf apache-maven-3.8.6-bin.tar.gz
 mv apache-maven-3.8.6 maven
 tar -xvzf apache-tomcat-9.0.65.tar.gz
 mv apache-tomcat-9.0.65 tomcat
-docker build -t my-jenkins-image .
-docker run -d --name jenkins -p 8080:8080 my-jenkins-image
-docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
