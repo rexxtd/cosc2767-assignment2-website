@@ -10,4 +10,3 @@ tar -xvzf apache-tomcat-9.0.65.tar.gz
 mv apache-tomcat-9.0.65 tomcat
 yum install jenkins -y
 service jenkins start
-cat /var/lib/jenkins/secrets/initialAdminPassword
